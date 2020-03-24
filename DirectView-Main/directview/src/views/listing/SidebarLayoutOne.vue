@@ -1,0 +1,49 @@
+<template>
+	<div class="sidebar">
+		<div class="row mb-5">
+			<div class="col-lg-12 col-sm-12">
+				<div class="form-group">
+					<input type="text" placeholder="Search" class="form-control form-control-alternative">
+				</div>
+			</div>
+			<div class="col-lg-12 col-sm-12">
+				<div class="form-group">
+					<select class="form-control form-control-alternative custom-select" id="exampleFormControlSelect1">
+						<option>Hotels</option>
+						<option>Bars</option>
+						<option>Food Courts</option>
+						<option>Events</option>
+						<option>Cafe Bar</option>
+					</select>
+				</div>
+			</div>
+			<div class="col-lg-12 col-sm-12">
+				<!-- <label for="">Area Range</label> -->
+				<!-- <nouislider [min]="0" [max]="15" [(ngModel)]="someRange"></nouislider> -->
+			</div>
+			<div class="col-lg-12 col-sm-12">
+				<button class="btn btn-primary" type="button">Search</button>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-lg-12 col-sm-12 text-center">
+				<div class="subs-widget bg-gradient-warning p-4">
+					<img src="/static/images/logo-white.png" width="150" class="mb-4 img-fluid" alt="">
+					<p class="text-white mb-0">Don't Miss</p>
+					<h4 class="text-white">Exclusive Offers From DirectView</h4>
+					<div class="form-group">
+						<input type="text" placeholder="Email" class="form-control form-control-alternative">
+					</div>
+					<button class="btn btn-primary" type="button">Subscribe</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+
+export default {
+
+};
+</script>

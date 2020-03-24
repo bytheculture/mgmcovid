@@ -1,0 +1,43 @@
+<template>
+	<div class="block-space">
+		<div class="container">
+			<div class="row justify-content-center text-center mb-5">
+				<div class="col-lg-8">
+					<h2 class="display-3">{{title}}</h2>
+					<p class="lead text-muted">{{desc}}</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-3 mb-5 mb-lg-0" v-for="member in data" :key="member.name">
+					<div class="px-4">
+						<img :src="member.image" class="rounded-circle img-center img-fluid shadow shadow-lg--hover" style="width: 200px;">
+						<div class="pt-4 text-center">
+							<h5 class="title">
+								<span class="d-block mb-1">{{member.name}}</span>
+								<small class="h6 text-muted">{{member.position}}</small>
+							</h5>
+							<div class="mt-3">
+								<a class="btn btn-success btn-icon-only rounded-circle">
+									<i class="fa fa-twitter text-white"></i>
+								</a>
+								<a class="btn btn-success btn-icon-only rounded-circle">
+									<i class="fa fa-facebook text-white"></i>
+								</a>
+								<a class="btn btn-success btn-icon-only rounded-circle">
+									<i class="fa fa-dribbble text-white"></i>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>
+
+<script>
+
+export default {
+	props: ['title', 'desc', 'data']
+};
+</script>
