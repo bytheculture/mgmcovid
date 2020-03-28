@@ -31,9 +31,9 @@
                   <ul class="m-0 p-0">
                      <app-menu></app-menu>
                   </ul>
-                  <div class="header-widget">
+                  <!-- <div class="header-widget">
                      <router-link to="/admin/add-list" class="btn btn-neutral btn-icon btn-radius">Add Listing <i class="fa fa-plus"></i></router-link>
-                  </div>
+                  </div> -->
                </div>
             </div>
          </div>

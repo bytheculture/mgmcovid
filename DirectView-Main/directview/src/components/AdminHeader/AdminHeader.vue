@@ -43,7 +43,6 @@
 							</div>
 						</li>
 					</ul>
-					<router-link to="/admin/add-list" class="btn btn-neutral btn-icon btn-radius">Add Listing <i class="fa fa-plus"></i></router-link>
 				</div>
 			</div>
 		</nav>

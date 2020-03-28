@@ -1,8 +1,8 @@
 {
 	"data": {
-			"bannerTitle": "Find Nearby Attractions",
-			"bannerDesc" : "Expolore top-rated attractions, activities and more",
-			"bannerImage": "/static/images/main-search-background-01.jpg",
+			"bannerTitle": "Montgomery Businesses During COVID-19",
+			"bannerDesc" : "Search through local businesses and their available services.",
+			"bannerImage": "/static/images/mgmFountain.jpg",
 
 			"popularCategoriesTitle": "Popular Categories",
 			"popularCategoriesDesc": "Browse the most desirable categories",

@@ -20,7 +20,7 @@
 				<div class="main-search-inner">
 					<h2 class="text-white display-2">{{title}}</h2>
 					<h4 class="text-white">{{desc}}</h4>
-					<div class="main-search-input">
+					<!-- <div class="main-search-input">
 						<div class="main-search-input-item">
 							<input type="text" placeholder="What are you looking for?" value="" />
 						</div>
@@ -43,7 +43,7 @@
 						<a href="#" class="btn main-search-btn btn-radius btn-lg btn-white">
 						<span class="btn-inner--text">Search</span>
 						</a>
-					</div>
+					</div> -->
 				</div>
 			</div>
 			<!-- SVG separator -->

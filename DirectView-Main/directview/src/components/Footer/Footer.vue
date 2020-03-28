@@ -4,7 +4,7 @@
 		<!-- Main -->
 		<div class="container">
 			<div class="row">
-				<div class="col-md-5 col-sm-6">
+				<!-- <div class="col-md-5 col-sm-6">
 					<img class="footer-logo" src="/static/images/logo-white.png" width="180" alt="">
 					<br><br>
 					<p class="text-white">Morbi convallis bibendum urna ut viverra. Maecenas quis consequat libero, a feugiat eros. Nunc ut lacinia tortor morbi ultricies laoreet ullamcorper phasellus semper.</p>
@@ -47,12 +47,14 @@
 						<li><router-link class="text-white" to='/pages/contact-us'>Contact</router-link></li>
 					</ul>
 				</div>
+				--->
 			</div>
+
 			<!-- Copyright -->
 			<div class="row">
-				<div class="col-md-12">
-					<div class="copyrights text-white">© 2019 DirectView. All Rights Reserved.</div>
-				</div>
+				<!-- <div class="col-md-12"> -->
+					<!-- <div class="copyrights text-white">Made <a href="https://www.bytheculture.co">By The Culture</a></div> -->
+				<!-- </div> -->
 			</div>
 		</div>
 	</div>
