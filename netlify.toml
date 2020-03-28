@@ -1,4 +1,4 @@
 [build]
-  base = "mgmcovid/DirectView-Main/directview"
+  base = "DirectView-Main/directview"
   command = "npm run build"
   publish = "dist/"
