@@ -25,15 +25,39 @@
       <li><a href="#" onclick="grocersvis()">Grocers & Pharmacies</a></li>
       <li><a href="#" onclick="banksvis()">Banks</a></li>
       <li><a target="_blank" href="https://www.diningatadistance.com/montgomery">Restaurants</a></li>
-      <li><a href="mailto:Skelley@montgomerychamber.com?Subject=Covid-19%20Resources" target="_top">Contact us to add or update data!</a>
+      <li><a href="mailto:Skelley@montgomerychamber.com?Subject=Covid-19%20Resources" target="_top">Contact us to add or update data!</a></li>
     </ul>
   </div>
-
-
-
 </nav>
 
 <div class="container" id="home">
+  <div class="header" id="GrocerHeader" style.display="block">
+    <h2>Grocery Stores/Pharmacies/Discount Stores:</h2>
+    <p class="p-header">
+      Support Montgomery grocers, pharmacies and discount retailers, while responsibly practicing social distancing. <br />
+      We’re all in this together. Local grocery stores, pharmacies and discount stores are working to make sure you can access your essential goods and services. <br /> <br />
+      Let’ support them. <br /> <br />
+      Use this site to find out what these stores in the Montgomery area are doing to stay open and serve you during COVID-19. <br /> <br />
+      This list is constantly evolving, so if you see a place missing please use the form below to add them to the list!
+    </p>
+    <a href="mailto:Skelley@montgomerychamber.com?Subject=Covid-19%20Resources" target="_top">Contact us to add or update data!</a>
+    <br />
+    <br />
+  </div>
+
+  <div class="header" id="BankHeader" style="display:none;">
+    <h2>Banks:</h2>
+    <p class="p-header">
+      Bank on a brighter future, while responsibly practicing social distancing. <br />
+      We’re all in this together. Local bank branches are working to make sure you can still easily access your accounts and services. <br /> <br />
+      Use this site to find out what banks in the Montgomery area are doing to stay open and serve you during COVID-19. <br /> <br />
+      This list is constantly evolving, so if you see a place missing please use the form below to add them to the list!
+    </p>
+    <a href="mailto:Skelley@montgomerychamber.com?Subject=Covid-19%20Resources" target="_top">Contact us to add or update data!</a>
+    <br />
+    <br />
+  </div>
+
   <div class="list-group" id="Grocerlist"  style.display="block">
     <input class="form-control" id="GrocerFilter" type="text" placeholder="Search...">
     <br>
@@ -72,10 +96,14 @@ $(document).ready(function(){
 function banksvis() {
   document.getElementById("Grocerlist").style.display = "none";
   document.getElementById("Banklist").style.display = "block";
+  document.getElementById("GrocerHeader").style.display = "none";
+  document.getElementById("BankHeader").style.display = "block";
 }
 function grocersvis() {
   document.getElementById("Grocerlist").style.display = "block";
   document.getElementById("Banklist").style.display = "none";
+  document.getElementById("GrocerHeader").style.display = "block";
+  document.getElementById("BankHeader").style.display = "none";
 }
 </script>
 
