@@ -1,0 +1,72 @@
+body {
+  background-color: #104E8B;
+}
+/* Style the navigation menu */
+.menu {
+  background-color: #2d2d2d;
+}
+
+.navbar-default {
+  background-color: #2d2d2d;
+}
+
+.navbar-header {
+  background-color: #2d2d2d;
+  padding-top: 10px;
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-brand {
+  font-family: 'Share', cursive;
+  text-align: center;
+  text-size: 30px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: white;
+}
+
+.menu li a {
+  margin: 0 10px;
+  line-height: 70px;
+  clear: right;
+}
+
+label {
+  margin: 0 40px 0 0;
+  font-size: 26px;
+  line-height: 70px;
+  display: none;
+  float: right;
+  color: white;
+}
+
+#toggle {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  label {
+    display: block;
+    cursor: pointer;
+    color: white;
+  }
+  .menu {
+    background-color: #2d2d2d;
+    text-align: center;
+    width: 100%;
+    display: none;
+  }
+
+  .menu li a {
+    display: block;
+    color: white;
+  }
+
+  #toggle:checked + .menu {
+    display: block;
+  }
+}
