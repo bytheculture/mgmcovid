@@ -26,6 +26,7 @@
       <li><a href="#" onclick="banksvis()">Banks</a></li>
       <li><a target="_blank" href="https://www.diningatadistance.com/montgomery">Restaurants</a></li>
       <li><a href="mailto:Skelley@montgomerychamber.com?Subject=Covid-19%20Resources" target="_top">Contact us to add or update data!</a></li>
+      <li><a href="#" onclick="about()">About</a></li>
     </ul>
   </div>
 </nav>
@@ -34,7 +35,9 @@
   <div class="header" id="GrocerHeader" style.display="block">
     <h2>Grocery Stores/Pharmacies/Discount Stores:</h2>
     <p class="p-header">
-      Support Montgomery grocers, pharmacies and discount retailers, while responsibly practicing social distancing. <br />
+      <h3>Support Montgomery grocers, pharmacies and discount retailers, while responsibly practicing social distancing.</h3>
+    </p>
+    <p class="p-header">
       We’re all in this together. Local grocery stores, pharmacies and discount stores are working to make sure you can access your essential goods and services. <br /> <br />
       Let’ support them. <br /> <br />
       Use this site to find out what these stores in the Montgomery area are doing to stay open and serve you during COVID-19. <br /> <br />
@@ -72,6 +75,8 @@
   </div>
 </div>
 
+
+
 <script>
 $(document).ready(function(){
   $("#GrocerFilter").on("keyup", function() {
@@ -104,6 +109,12 @@ function grocersvis() {
   document.getElementById("Banklist").style.display = "none";
   document.getElementById("GrocerHeader").style.display = "block";
   document.getElementById("BankHeader").style.display = "none";
+}
+</script>
+
+<script>
+function about() {
+  alert("Thanks to the Chamber, TechMGM, BESPIN and tech community partners for the development of this resource!");
 }
 </script>
 
